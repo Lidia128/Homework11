@@ -7,8 +7,7 @@ public class Main {
         System.out.println("Задача № 2");
         getDeviceLink(1, 2005);
         System.out.println("Задача № 3");
-        int deliveryDistance = deliveryDistanceDay(60);
-        System.out.println("Доставка будет в течении " + (deliveryDistance) + " дней");
+        deliveryDistanceDay(20);
     }
 
     public static void checkYear(int year) {
@@ -33,8 +32,8 @@ public class Main {
         }
     }
 
-    public static int deliveryDistanceDay (int diliveryDistance) {
-        int deliveryDistance = 95;
+    public static void deliveryDistanceDay (int diliveryDistance) {
+        int deliveryDistance = 60;
         int day = 1;
         if (deliveryDistance <= 20) {
             System.out.println("Доставка будет в течении " + day + " дня");
